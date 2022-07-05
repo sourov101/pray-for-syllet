@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    font-family: 'Finlandica', sans-serif;
+}
+
+.top-banner {
+    background-image: url(images/donation13.jpg);
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+
+}
+
+.top-banner h1 {
+
+    font-weight: bold;
+    font-size: 50px;
+
+}
+
+.top-banner p {
+    color: white;
+    font-size: 20px;
+}
+
+.link-button {
+    text-decoration: none;
+    color: white;
+    background-color: brown;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+
+.donate-today {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 80px;
+    padding-bottom: 100px;
+
+}
+
+p {
+    color: grey;
+    font-size: 20px;
+}
+
+.flex {
+    display: flex;
+}
+
+.side-by-side {
+    padding: 20px 40px;
+    background-color: whitesmoke;
+    margin: 3%;
+    width: 40%;
+    border-radius: 5px;
+}
+
+#five-hundred-tk {
+    background-color: turquoise;
+    border: 2px solid green;
+    color: green;
+}
+
+.other-amount {
+    padding-bottom: 50px;
+
+}
+
+input {
+    width: 90%;
+    padding: 10px 20px;
+    border: none;
+    border-bottom: 2px solid gray;
+}
