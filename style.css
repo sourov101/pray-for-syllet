@@ -30,7 +30,7 @@ body {
 .link-button {
     text-decoration: none;
     color: white;
-    background-color: brown;
+    background-color: salmon;
     padding: 10px 20px;
     border-radius: 5px;
     font-weight: bold;
@@ -41,7 +41,6 @@ body {
 .donate-today {
     text-align: center;
     font-size: 25px;
-    font-weight: bold;
     padding-top: 80px;
     padding-bottom: 100px;
 
@@ -53,13 +52,12 @@ h1 {
 }
 
 p {
-    color: grey;
     font-size: 20px;
 }
 
 .flex {
     display: flex;
-
+    padding-bottom: 50px;
 }
 
 .side-by-side {
@@ -81,14 +79,16 @@ p {
 
 .other-amount {
     padding-bottom: 50px;
-
 }
 
-input {
+.donate-today input {
     width: 90%;
     padding: 10px 20px;
     border: none;
-    border-bottom: 2px solid gray;
+    border-bottom: 1px solid gray;
+    text-align: center;
+    color: gray;
+    font-size: 20px;
 }
 
 .donate-plan {
@@ -118,4 +118,48 @@ input {
     width: 90%;
     padding-left: 40px;
     padding-top: 40px;
+}
+
+.updates {
+    text-align: center;
+    padding-bottom: 150px;
+}
+
+.updates input {
+    padding: 12px 20px;
+    background-color: lightgray;
+    border: none;
+    color: gray;
+    border-radius: 5px;
+}
+
+.email-subscribe {
+    background-color: bisque;
+    border-radius: 0;
+
+    padding: 100px;
+
+}
+
+.center {
+    padding-left: 100px;
+
+}
+
+footer {
+    background-color: rgb(26, 26, 68);
+    padding: 40px;
+    text-align: center;
+}
+
+footer p {
+    color: white;
+    font-size: 15px;
+}
+
+
+span {
+    font-family: 'Lobster', cursive;
+    color: orange;
+    font-size: 40px;
 }
